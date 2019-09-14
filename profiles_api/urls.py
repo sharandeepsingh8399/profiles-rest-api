@@ -1,4 +1,4 @@
-from django.urls import path,include
+from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
 from profiles_api import views
@@ -6,7 +6,8 @@ from profiles_api import views
 
 router=DefaultRouter()
 router.register('hello-viewset',views.HelloViewSet,base_name='hello-viewset')
-
+router.register('profile',views.UserProfileViewset)
+##we are not giving base name because it tallies from the viewset as the query field is used
 
 
 urlpatterns = [
