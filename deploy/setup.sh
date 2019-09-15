@@ -3,8 +3,8 @@
 set -e
 
 # TODO: Set to URL of git repo.
-PROJECT_GIT_URL='https://github.com/CHANGEME.githttps://github.com/sharandeepsingh8399/profiles-rest-api.git'
-PROJECT_BASE_PATH='/usr/local/apps/rest-api-projects'
+PROJECT_GIT_URL='https://github.com/sharandeepsingh8399/profiles-rest-api.git'
+PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 
 echo "Installing dependencies..."
 apt-get update
